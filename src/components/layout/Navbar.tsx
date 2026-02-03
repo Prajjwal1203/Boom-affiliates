@@ -45,7 +45,7 @@ export const Navbar = () => {
               <span className="text-primary-foreground font-display font-bold text-xl">B</span>
             </div>
             <span className="font-display font-bold text-xl text-foreground">
-              Boom<span className="text-gradient">Affiliates</span>
+              Adaff<span className="text-gradient">Grow</span>
             </span>
           </a>
 

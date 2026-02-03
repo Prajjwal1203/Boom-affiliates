@@ -24,7 +24,7 @@ const footerLinks = {
 const socialLinks = [
   { icon: Linkedin, href: "#", label: "LinkedIn" },
   { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Mail, href: "mailto:business@boomaffiliates.co", label: "Email" },
+  { icon: Mail, href: "mailto:business@adaffgrow.com", label: "Email" },
 ];
 
 export const Footer = () => {
@@ -39,7 +39,7 @@ export const Footer = () => {
                 <span className="text-primary-foreground font-display font-bold text-xl">B</span>
               </div>
               <span className="font-display font-bold text-xl text-foreground">
-                Boom<span className="text-gradient">Affiliates</span>
+                Adaff<span className="text-gradient">Grow</span>
               </span>
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
@@ -117,7 +117,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Boom Affiliates. All rights reserved.
+            © {new Date().getFullYear()} AdaffGrow. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm">
             Based in Tel-Aviv & Estonia 🌍

@@ -25,7 +25,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    value: "business@boomaffiliates.co",
+    value: "business@adaffgrow.com",
   },
   {
     icon: MessageSquare,
