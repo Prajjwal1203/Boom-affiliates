@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
-    value: "Viru 5, Tallinn Harjumaa, Estonia, 10151",
+    value: "123 North Bridge Road 07-34 Peninsula Plaza, 179098, Singapore",
   },
   {
     icon: Mail,

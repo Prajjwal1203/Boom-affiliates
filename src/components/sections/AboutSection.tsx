@@ -53,7 +53,7 @@ export const AboutSection = () => {
               Full-Service <span className="text-gradient">Creative Agency</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              Boom Affiliates is your pass to the most advanced technological, creative agency in the advertising industry. 
+              Adaffgrow is your pass to the most advanced technological, creative agency in the advertising industry. 
               We aren't just your typical media agency. We are fully secure and offer only high-quality leads, 
               tons of traffic sources, and certified media partners.
             </p>

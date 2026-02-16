@@ -41,11 +41,10 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-xl">B</span>
-            </div>
-            <span className="font-display font-bold text-xl text-foreground">
-              Adaff<span className="text-gradient">Grow</span>
+            <img src="/logo.jpeg" alt="Adaffgrow Logo" className="h-24 w-auto object-contain" />
+            <span className="text-xl font-bold">
+              <span className="text-black">Adaff</span>
+              <span className="text-pink-500">grow</span>
             </span>
           </a>
 

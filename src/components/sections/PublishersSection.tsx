@@ -61,7 +61,7 @@ export const PublishersSection = () => {
               Maximize Your <span className="text-gradient">Revenue</span>
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Boom Affiliates knows what publishers want. We keep it simple: the highest CPA rates, 
+              Adaffgrow knows what publishers want. We keep it simple: the highest CPA rates, 
               guaranteed payments, access to exclusive offers, and dedicated support to help you succeed.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
