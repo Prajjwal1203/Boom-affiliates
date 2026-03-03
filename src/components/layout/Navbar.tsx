@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useAuth } from "@/hooks/useAuth";
 import { useNavigate } from "react-router-dom";
 
+
 const navLinks = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
@@ -41,11 +42,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <img src="/logo.jpeg" alt="Adaffgrow Logo" className="h-24 w-auto object-contain" />
-            <span className="text-xl font-bold">
-              <span className="text-black">Adaff</span>
-              <span className="text-pink-500">grow</span>
-            </span>
+            <img src="/logo.jpeg" alt="Adaffgrow Logo" className="h-14 w-auto object-contain" />
           </a>
 
           {/* Desktop Navigation */}

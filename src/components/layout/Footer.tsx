@@ -24,7 +24,7 @@ const footerLinks = {
 const socialLinks = [
   { icon: Linkedin, href: "#", label: "LinkedIn" },
   { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Mail, href: "mailto:business@adaffgrow.com", label: "Email" },
+  { icon: Mail, href: "mailto:business@boomaffiliates.co", label: "Email" },
 ];
 
 export const Footer = () => {
@@ -36,10 +36,10 @@ export const Footer = () => {
           <div className="col-span-2 md:col-span-1">
             <a href="#home" className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 rounded-lg bg-gradient-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-xl">B</span>
+                <span className="text-primary-foreground font-display font-bold text-xl">A</span>
               </div>
               <span className="font-display font-bold text-xl text-foreground">
-                Adaff<span className="text-gradient">Grow</span>
+                Adaff<span className="text-gradient">grow</span>
               </span>
             </a>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
@@ -117,7 +117,7 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} AdaffGrow. All rights reserved.
+            © {new Date().getFullYear()} Boom Affiliates. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm">
             Based in Tel-Aviv & Estonia 🌍
