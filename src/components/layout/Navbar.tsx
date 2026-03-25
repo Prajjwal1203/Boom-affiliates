@@ -80,7 +80,7 @@ export const Navbar = () => {
                       Login
                     </Button>
                     <Button variant="hero" size="lg" onClick={() => window.open("https://adaffgrow.trackog.io/pub-signup", "_blank")}>
-                      Get Started
+                      Signup
                     </Button>
                   </>
                 )}
