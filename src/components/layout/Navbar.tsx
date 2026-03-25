@@ -4,7 +4,9 @@ import { Menu, X, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useAuth } from "@/hooks/useAuth";
 import { useNavigate } from "react-router-dom";
-
+// If logo.jpeg is missing locally, place your logo file at src/assets/logo.jpeg
+// or update the path below to match your actual logo location
+import logo from "@/assets/logo.jpeg";
 
 const navLinks = [
   { name: "Home", href: "#home" },
@@ -74,10 +76,10 @@ export const Navbar = () => {
                   </>
                 ) : (
                   <>
-                    <Button variant="heroOutline" size="lg" onClick={() => navigate("/auth")}>
+                    <Button variant="heroOutline" size="lg" onClick={() => window.open("https://adaffgrow.trackog.io/login", "_blank")}>
                       Login
                     </Button>
-                    <Button variant="hero" size="lg" onClick={() => navigate("/auth")}>
+                    <Button variant="hero" size="lg" onClick={() => window.open("https://adaffgrow.trackog.io/pub-signup", "_blank")}>
                       Get Started
                     </Button>
                   </>
@@ -131,10 +133,10 @@ export const Navbar = () => {
                       </>
                     ) : (
                       <>
-                        <Button variant="heroOutline" size="lg" className="w-full" onClick={() => { navigate("/auth"); setIsMobileMenuOpen(false); }}>
+                        <Button variant="heroOutline" size="lg" className="w-full" onClick={() => { window.open("https://adaffgrow.trackog.io/login", "_blank"); setIsMobileMenuOpen(false); }}>
                           Login
                         </Button>
-                        <Button variant="hero" size="lg" className="w-full" onClick={() => { navigate("/auth"); setIsMobileMenuOpen(false); }}>
+                        <Button variant="hero" size="lg" className="w-full" onClick={() => { window.open("https://adaffgrow.trackog.io/pub-signup", "_blank"); setIsMobileMenuOpen(false); }}>
                           Get Started
                         </Button>
                       </>
