@@ -160,7 +160,7 @@ export const ContactSection = () => {
                 24/7 Dedicated Support
               </h4>
               <p className="text-primary-foreground/80">
-                Our US (EN) support team is available around the clock to help you succeed.
+                Our Singapore (EN) support team is available around the clock to help you succeed.
               </p>
             </motion.div>
           </motion.div>
