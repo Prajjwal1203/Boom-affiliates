@@ -117,10 +117,10 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Boom Affiliates. All rights reserved.
+            © {new Date().getFullYear()} Adaff Grow. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm">
-            Based in Tel-Aviv & Estonia 🌍
+            Based in Singapore 🌍
           </p>
         </div>
       </div>
