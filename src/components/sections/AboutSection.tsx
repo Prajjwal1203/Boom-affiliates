@@ -58,7 +58,7 @@ export const AboutSection = () => {
               tons of traffic sources, and certified media partners.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              Based in Tel-Aviv and Estonia, we have the talent, creativity, and desire to take on any business task. 
+              Based in Singapore, we have the talent, creativity, and desire to take on any business task. 
               We specialize in customizing everything according to your needs, providing branding from the inside-out, 
               and pride ourselves on our expertise in consulting and marketing strategies on a global scale.
             </p>
