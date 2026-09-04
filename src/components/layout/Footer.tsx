@@ -22,7 +22,7 @@ const footerLinks = {
 };
 
 const socialLinks = [
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
+  { icon: Linkedin, href: "https://www.linkedin.com/posts/adaffgrow_adaffgrow-linkedin-activity-7450966972860870656-csRa", label: "LinkedIn" },
   { icon: Instagram, href: "#", label: "Instagram" },
   { icon: Mail, href: "mailto:business@boomaffiliates.co", label: "Email" },
 ];
@@ -120,7 +120,7 @@ export const Footer = () => {
             © {new Date().getFullYear()} Adaff Grow. All rights reserved.
           </p>
           <p className="text-muted-foreground text-sm">
-            Based in Singapore 🌍
+            Based in US 🌍
           </p>
         </div>
       </div>

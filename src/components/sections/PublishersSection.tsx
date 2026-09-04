@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { Check, DollarSign, Clock, Users, TrendingUp, Headphones } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { PublisherApplicationForm } from "@/components/forms/PublisherApplicationForm";
+
 const benefits = [
   {
     icon: DollarSign,
@@ -37,10 +37,17 @@ const benefits = [
   },
 ];
 
+const PUBLISHER_SIGNUP_URL =
+  "https://adaffgrow264720.offer18.com/m/signup_self_aff?r=&am=";
+
 export const PublishersSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
-  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const handleBecomePublisher = () => {
+    window.open(PUBLISHER_SIGNUP_URL, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <section id="publishers" className="py-24 relative overflow-hidden">
       {/* Background */}
@@ -68,10 +75,9 @@ export const PublishersSection = () => {
               Our goal is to grow your bottom line and increase your reach. We want to be not just 
               a one-stop shop for all your performance-based marketing needs, but your ONLY stop.
             </p>
-            <Button variant="hero" size="xl" onClick={() => setIsFormOpen(true)}>
+            <Button variant="hero" size="xl" onClick={handleBecomePublisher}>
               Become a Publisher
             </Button>
-            <PublisherApplicationForm open={isFormOpen} onOpenChange={setIsFormOpen} />
           </motion.div>
 
           {/* Right - Benefits Grid */}

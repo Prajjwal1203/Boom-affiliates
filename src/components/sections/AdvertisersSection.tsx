@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { Gamepad2, Heart, Home, Wallet, Shield, Trophy } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { AdvertiserApplicationForm } from "@/components/forms/AdvertiserApplicationForm";
+
 const verticals = [
   { icon: Gamepad2, name: "Games" },
   { icon: Heart, name: "Health & Beauty" },
@@ -22,10 +22,16 @@ const features = [
   "Custom campaign optimization",
 ];
 
+const ADVERTISER_SIGNUP_URL =
+  "https://adaffgrow264720.offer18.com/m/signup_self_adv?r=&am=";
+
 export const AdvertisersSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
-  const [isFormOpen, setIsFormOpen] = useState(false);
+
+  const handleBecomeAdvertiser = () => {
+    window.open(ADVERTISER_SIGNUP_URL, "_blank", "noopener,noreferrer");
+  };
 
   return (
     <section id="advertisers" className="py-24 relative">
@@ -102,10 +108,9 @@ export const AdvertisersSection = () => {
               We customize everything according to your needs, providing branding from the inside-out, 
               and pride ourselves on our expertise in consulting and marketing strategies on a global scale.
             </p>
-            <Button variant="hero" size="xl" onClick={() => setIsFormOpen(true)}>
+            <Button variant="hero" size="xl" onClick={handleBecomeAdvertiser}>
               Become an Advertiser
             </Button>
-            <AdvertiserApplicationForm open={isFormOpen} onOpenChange={setIsFormOpen} />
           </motion.div>
         </div>
       </div>

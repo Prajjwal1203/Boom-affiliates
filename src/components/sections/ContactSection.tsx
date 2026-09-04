@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
-    value: "123 North Bridge Road 07-34 Peninsula Plaza, 179098, Singapore",
+    value: "69 North Ave , Jacksonville, Florida 32218, US",
   },
   {
     icon: Mail,
@@ -29,8 +29,8 @@ const contactInfo = [
   },
   {
     icon: MessageSquare,
-    title: "Skype",
-    value: "live:cid.d1dd5bb71af22bbc",
+    title: "Telegram",
+    value: "Adaffgrow_Support",
   },
   {
     icon: Clock,
@@ -160,7 +160,7 @@ export const ContactSection = () => {
                 24/7 Dedicated Support
               </h4>
               <p className="text-primary-foreground/80">
-                Our Singapore (EN) support team is available around the clock to help you succeed.
+                Our US (EN) support team is available around the clock to help you succeed.
               </p>
             </motion.div>
           </motion.div>
