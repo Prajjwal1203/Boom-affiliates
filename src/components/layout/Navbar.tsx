@@ -76,10 +76,10 @@ export const Navbar = () => {
                   </>
                 ) : (
                   <>
-                    <Button variant="heroOutline" size="lg" onClick={() => window.open("https://adaffgrow.trackog.io/login", "_blank")}>
+                    <Button variant="heroOutline" size="lg" onClick={() => window.open("https://adaffgrow264720.offer18.com/m/login", "_blank", "noopener,noreferrer")}>
                       Login
                     </Button>
-                    <Button variant="hero" size="lg" onClick={() => window.open("https://adaffgrow.trackog.io/pub-signup", "_blank")}>
+                    <Button variant="hero" size="lg" onClick={() => window.open("https://adaffgrow264720.offer18.com/m/signup_self_aff?r=&am=", "_blank", "noopener,noreferrer")}>
                       Signup
                     </Button>
                   </>
@@ -133,10 +133,10 @@ export const Navbar = () => {
                       </>
                     ) : (
                       <>
-                        <Button variant="heroOutline" size="lg" className="w-full" onClick={() => { window.open("https://adaffgrow.trackog.io/login", "_blank"); setIsMobileMenuOpen(false); }}>
+                        <Button variant="heroOutline" size="lg" className="w-full" onClick={() => { window.open("https://adaffgrow264720.offer18.com/m/login", "_blank", "noopener,noreferrer"); setIsMobileMenuOpen(false); }}>
                           Login
                         </Button>
-                        <Button variant="hero" size="lg" className="w-full" onClick={() => { window.open("https://adaffgrow.trackog.io/pub-signup", "_blank"); setIsMobileMenuOpen(false); }}>
+                        <Button variant="hero" size="lg" className="w-full" onClick={() => { window.open("https://adaffgrow264720.offer18.com/m/signup_self_aff?r=&am=", "_blank", "noopener,noreferrer"); setIsMobileMenuOpen(false); }}>
                           Get Started
                         </Button>
                       </>
